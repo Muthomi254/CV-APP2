@@ -1,8 +1,8 @@
 """Add email, phone_number, password_hash, description, last_seen to User model
 
-Revision ID: 57824c71aaac
+Revision ID: 765297b49ec6
 Revises: 
-Create Date: 2024-02-01 11:58:22.928073
+Create Date: 2024-02-01 12:56:01.567378
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '57824c71aaac'
+revision = '765297b49ec6'
 down_revision = None
 branch_labels = None
 depends_on = None
